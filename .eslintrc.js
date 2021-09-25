@@ -16,5 +16,9 @@ module.exports = {
     'eslint-plugin-html',
   ],
   rules: {
+    'import/extensions': ['error', 'always'],
+    'max-len': ['error', {code: 120}],
+    'no-unused-vars': ['warn'],
+    'object-curly-spacing': ['error', 'never'],
   },
 };
