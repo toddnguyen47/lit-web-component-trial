@@ -1,0 +1,35 @@
+{
+  "name": "lit-web-component-trial",
+  "version": "0.0.1",
+  "description": "Trying out Lit Web Components",
+  "main": "index.js",
+  "scripts": {
+    "lint:init": "eslint --init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddnguyen47/lit-web-component-trial.git"
+  },
+  "keywords": [
+    "lit"
+  ],
+  "author": "Todd Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toddnguyen47/lit-web-component-trial/issues"
+  },
+  "homepage": "https://github.com/toddnguyen47/lit-web-component-trial#readme",
+  "dependencies": {
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.24.2",
+    "typescript": "^4.4.3"
+  }
+}
